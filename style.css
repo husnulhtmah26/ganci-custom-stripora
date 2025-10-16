@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+:root{
+  --bg:#fbf8ff;
+  --card:#fff;
+  --accent:#b18bd9; /* pastel purple */
+  --accent-2:#c9a3e6;
+  --muted:#6b6b6b;
+}
+*{box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;margin:0;background:var(--bg);color:#222}
+header{background:linear-gradient(120deg,var(--accent),var(--accent-2));color:#fff;padding:24px;border-radius:0 0 18px 18px;text-align:center}
+header h1{margin:0;font-size:1.4rem}
+.nav{margin-top:10px}
+.nav a{color:rgba(255,255,255,0.95);margin:0 8px;text-decoration:none;font-weight:600}
+.container{max-width:900px;margin:18px auto;padding:12px}
+.products-grid{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+.product{background:var(--card);border-radius:12px;padding:12px;width:220px;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+.product img{width:100%;border-radius:8px;display:block}
+#order{background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.95));padding:16px;border-radius:12px;margin-top:18px}
+form input, form select, form textarea, form button{width:100%;margin:8px 0;padding:10px;border-radius:8px;border:1px solid #eee;font-size:0.95rem}
+form button{background:var(--accent);color:#fff;border:none;cursor:pointer;font-weight:700;padding:12px}
+.wa-link{display:inline-block;padding:10px 16px;background:#25D366;color:#fff;border-radius:10px;text-decoration:none;font-weight:700}
+footer{padding:12px;text-align:center;color:#fff;background:linear-gradient(180deg,var(--accent-2),#a27bd6);margin-top:20px;border-radius:12px}
+@media(max-width:600px){.product{width:160px}header h1{font-size:1.1rem}}

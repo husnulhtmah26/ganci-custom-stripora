@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stripora — Ganci Custom by Husnul</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Stripora — Ganci Custom by Husnul</h1>
+    <p>Buat ganci custom favoritmu — kirim desain, pilih bahan, dan pesan sekarang!</p>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">Tentang</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="products">
+      <h2>Contoh Ganci</h2>
+      <div class="products-grid">
+        <div class="product">
+          <img src="https://res.cloudinary.com/dljfdauc5/image/upload/v1/sample.jpg" alt="Ganci Contoh">
+          <h3>Ganci Akrilik</h3>
+          <p class="price">Rp 25.000</p>
+        </div>
+        <div class="product">
+          <img src="https://res.cloudinary.com/dljfdauc5/image/upload/v1/sample.jpg" alt="Ganci Contoh">
+          <h3>Ganci Kayu</h3>
+          <p class="price">Rp 30.000</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="order">
+      <h2>Pesan Ganci Custom</h2>
+      <form id="orderForm">
+        <label>Nama Lengkap</label>
+        <input type="text" id="name" name="name" required placeholder="Nama lengkap">
+        <label>Nomor WhatsApp</label>
+        <input type="text" id="whatsapp" name="whatsapp" required placeholder="08xxxxxxxxxx">
+        <label>Jenis Ganci</label>
+        <select id="material" name="material">
+          <option value="akrilik">Akrilik</option>
+          <option value="kayu">Kayu</option>
+        </select>
+        <label>Jumlah</label>
+        <input type="number" id="qty" name="qty" min="1" value="1" required>
+        <label>Upload Gambar Desain (opsional)</label>
+        <input type="file" id="design" accept="image/*">
+        <label>Catatan</label>
+        <textarea id="note" name="note" placeholder="Catatan tambahan..."></textarea>
+        <button type="submit" id="submitBtn">Kirim Pesanan</button>
+      </form>
+      <p id="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Stripora — Ganci Custom by Husnul. Hubungi: <a href="https://wa.me/628771295293">087712952933</a></p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
