@@ -1,13 +1,13 @@
 // Script untuk upload desain ke Cloudinary (unsigned) lalu menyimpan pesanan ke file orders.json di GitHub repo
 // === CONFIG ===
 // isi variabel berikut sebelum dipakai:
-const CLOUDINARY_CLOUD_NAME = "dljfdauc5"; // sudah diisi
-const CLOUDINARY_UPLOAD_PRESET = "stripora_unsigned"; // GANTI dengan upload preset unsigned dari Cloudinary
-const GITHUB_OWNER = "GITHUB_USERNAME"; // Ganti dengan username pemilik repo
-const GITHUB_REPO = "ganci-custom-stripora"; // Ganti dengan nama repo kamu
-const GITHUB_BRANCH = "main"; // branch utama
-const GITHUB_FILEPATH = "orders.json"; // file path di repo
-const GITHUB_TOKEN = "PASTE_TOKEN_DI_BROWSER_CONSOLE";
+const CLOUDINARY_CLOUD_NAME = "dljfdauc5"; 
+const CLOUDINARY_UPLOAD_PRESET = "stripora_unsigned"; 
+const GITHUB_OWNER = "husnulhtmah26"; 
+const GITHUB_REPO = "ganci-custom-stripora"; 
+const GITHUB_BRANCH = "main"; 
+const GITHUB_FILEPATH = "orders.json"; 
+const GITHUB_TOKEN = "pasword-gogle";
 
 // ----------------------
 // helper
